@@ -20,7 +20,7 @@ async def exception_handler(update: types.Update, exception: exceptions.RetryAft
 
 @dp2.message_handler(text='Код15')
 async def cmd_test2(message: types.Message):
-    await message.answer("Кабан в строю!!!")
+    await message.answer("Кушать поданно, садитесь жрать пожалуйста!!!")
     time.sleep(10)
     s1 = 0
     for i in range(100000):
